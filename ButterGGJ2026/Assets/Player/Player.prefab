@@ -287,8 +287,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-    m_ActionId: b37358a0-c0bb-4fb9-81be-cde1b16ab1d1
-    m_ActionName: 'Player/DropDownPlatform[/Keyboard/s]'
+    m_ActionId: 50864f93-9b45-4dec-a83b-004d4fa0fdf4
+    m_ActionName: Player/DropDownPlatform
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
