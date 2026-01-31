@@ -75,7 +75,6 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetBool("isPushing", false);
             playerAnimator.SetBool("isRunning", false);
             playerAnimator.SetBool("isDeath", false);
-            Debug.Log("Move triggered");
         }
     }
 
@@ -98,7 +97,6 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetBool("isRunning", false);
             playerAnimator.SetBool("isDeath", false);
         }
-        Debug.Log("Jump triggered");
     }
 
     public void Interact(InputAction.CallbackContext context)
@@ -137,7 +135,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Not jumping triggered");
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
         if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Platform")
         {
