@@ -1069,6 +1069,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &420138140 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3164670345635920120, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+  m_PrefabInstance: {fileID: 903675391}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6b8a621de54f14e9a160fa1c2cbbe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &469032517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,10 +1670,70 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionId
+      value: bad108ec-7777-4868-9ba7-b8eeffeaefc8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_ActionName
+      value: 'Player/DropDownPlatform[/Keyboard/s,/Keyboard/z]'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 420138140}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DropDownPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3148599997634317553, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3164670345635920120, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: cc2d
+      value: 
+      objectReference: {fileID: 903675392}
     - target: {fileID: 3164670345635920120, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: jumpSpeed
       value: 8
@@ -1716,6 +1787,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+--- !u!70 &903675392 stripped
+CapsuleCollider2D:
+  m_CorrespondingSourceObject: {fileID: 8753622505711582080, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+  m_PrefabInstance: {fileID: 903675391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &965316705
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,7 +2652,7 @@ GameObject:
   - component: {fileID: 1709968584}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

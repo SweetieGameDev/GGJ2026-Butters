@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody2D rb2d;
 
+    public CapsuleCollider2D cc2d;
+
     #region [Animation]
 
     private bool isIdle;
@@ -14,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isWalking;
 
     private bool isRunning;
+
+    private bool isJumping;
 
     #endregion
 
@@ -31,12 +35,15 @@ public class PlayerMovement : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
 
+        cc2d = GetComponent<CapsuleCollider2D>();
+
         isIdle = true;
 
         isWalking = false;
 
         isRunning = false;
 
+        isJumping = false;
     }
 
     // Update is called once per frame
@@ -63,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
         if (context.performed)
         {
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
+            isJumping = true;
         }
         Debug.Log("Jump triggered");
     }
@@ -70,6 +78,16 @@ public class PlayerMovement : MonoBehaviour
     public void Interact(InputAction.CallbackContext context)
     {
         Debug.Log("Interact triggered");
+        Debug.Log(context);
     }
+
+    public void DropDownPlatform(InputAction.CallbackContext context)
+    {
+        if (!isJumping)
+        {
+            cc2d.enabled = false;
+        }
+    }
+
     #endregion
 }
