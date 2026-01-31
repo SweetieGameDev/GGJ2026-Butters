@@ -337,7 +337,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
@@ -363,7 +363,7 @@ GameObject:
   - component: {fileID: 155758665}
   m_Layer: 0
   m_Name: Pushable Book (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 331865203}
   m_Layer: 0
   m_Name: Shelf2
-  m_TagString: Floor
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -635,8 +635,8 @@ Transform:
   m_GameObject: {fileID: 331865199}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4455, y: 3, z: 0}
-  m_LocalScale: {x: 28.76327, y: 1, z: 1}
+  m_LocalPosition: {x: -2.4455, y: 3.252, z: 0}
+  m_LocalScale: {x: 28.76327, y: 0.4959, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 786166194}
@@ -688,7 +688,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
@@ -778,7 +778,7 @@ GameObject:
   - component: {fileID: 365073146}
   m_Layer: 0
   m_Name: Target Block (1)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -917,7 +917,7 @@ GameObject:
   - component: {fileID: 390288532}
   m_Layer: 0
   m_Name: Pushable Book (2)
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1440,7 +1440,7 @@ GameObject:
   - component: {fileID: 505546608}
   m_Layer: 0
   m_Name: Pushable Box
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1676,7 +1676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_ActionId
-      value: bad108ec-7777-4868-9ba7-b8eeffeaefc8
+      value: f10f864f-8019-483e-ba05-08eb8d243a76
       objectReference: {fileID: 0}
     - target: {fileID: 2924062704381912224, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_ActionName
@@ -1736,19 +1736,23 @@ PrefabInstance:
       objectReference: {fileID: 903675392}
     - target: {fileID: 3164670345635920120, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: jumpSpeed
-      value: 8
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 3164670345635920120, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: moveSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 5385542159990822570, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.66
+      value: 2.86
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.54
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2085,7 +2089,7 @@ GameObject:
   - component: {fileID: 1367217021}
   m_Layer: 0
   m_Name: Target Block
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2791,7 +2795,7 @@ GameObject:
   - component: {fileID: 1763576810}
   m_Layer: 0
   m_Name: Pushable Book
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3120,7 +3124,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}
@@ -3502,7 +3506,7 @@ GameObject:
   - component: {fileID: 2141556812}
   m_Layer: 0
   m_Name: Shelf1
-  m_TagString: Floor
+  m_TagString: Platform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3516,8 +3520,8 @@ Transform:
   m_GameObject: {fileID: 2141556808}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.4637, y: -3, z: 0}
-  m_LocalScale: {x: 28.072756, y: 1, z: 1}
+  m_LocalPosition: {x: -2.4637, y: -2.7312, z: 0}
+  m_LocalScale: {x: 28.072756, y: 0.46230617, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 786166194}
@@ -3569,7 +3573,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5018867, g: 0.5018867, b: 0.5018867, a: 1}

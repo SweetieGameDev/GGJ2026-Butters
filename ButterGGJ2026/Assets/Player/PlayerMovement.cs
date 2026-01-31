@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float jumpSpeed;
 
-    private bool isJumping;
+    private bool touchingPlatform;
 
     private Vector2 moveInput;
 
@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
 
         isJumping = false;
+        touchingPlatform = false;
 
         playerAnimator = GetComponent<Animator>();
 
@@ -82,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
 
             isJumping = true;
+            touchingPlatform = false;
 
             playerAnimator.SetBool("isIdle", false);
             playerAnimator.SetBool("isWalking", false);
@@ -110,10 +112,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void DropDownPlatform(InputAction.CallbackContext context)
     {
-        if (!isJumping)
+        if (!isJumping && touchingPlatform)
         {
             cc2d.enabled = false;
+            isJumping = true;
+            StartCoroutine(EnableCollision());
         }
+    }
+
+    IEnumerator EnableCollision()
+    {
+        yield return new WaitForSeconds(0.5f);
+        cc2d.enabled = true;
     }
 
     #endregion
@@ -122,9 +132,15 @@ public class PlayerMovement : MonoBehaviour
     {
         Debug.Log("Not jumping triggered");
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        if (collision.gameObject.tag == "Floor")
+        if (collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Platform")
         {
             isJumping = false;
+            touchingPlatform = false;
+        }
+
+        if (collision.gameObject.tag == "Platform")
+        {
+            touchingPlatform = true;
         }
     }
 }
