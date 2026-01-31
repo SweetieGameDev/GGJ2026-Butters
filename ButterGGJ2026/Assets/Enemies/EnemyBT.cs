@@ -11,6 +11,12 @@ public class EnemyBT : MonoBehaviour
     protected Vector2 forceToApply;
     [HideInInspector] public Vector2 moveForce;
 
+    #region [Animation]
+
+    private Animator enemyAnimator;
+
+    #endregion
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,6 +24,8 @@ public class EnemyBT : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         NotActive();
+
+        enemyAnimator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,18 +38,23 @@ public class EnemyBT : MonoBehaviour
     // Tells enemy not to do anything
     private void NotActive()
     {
-        GameObject players = GameObject.FindGameObjectWithTag("Player");
+        enemyAnimator.SetBool("IsChasing", false);
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         // If target isnt set or distance is lower for other player, set player as target
         if (target == null)  
         {
-            target = players;
+            target = player;
         }
     }
 
     // Tells enemy to be active and chase player to kill them
     public void Chasing()
     {
+
+        enemyAnimator.SetBool("IsChasing", true);
+
         if (rb.linearVelocity.x < maxVelocity.x && rb.linearVelocity.y < maxVelocity.y)
         {
             // If target is set
