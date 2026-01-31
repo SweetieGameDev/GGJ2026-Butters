@@ -21,6 +21,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping;
 
+    private bool isDead;
+
     private Vector2 moveInput;
 
     #endregion
@@ -54,22 +56,25 @@ public class PlayerMovement : MonoBehaviour
     //Whenever the player calls this input, they'll move left to right
     public void Move(InputAction.CallbackContext context)
     {
-        moveInput = context.ReadValue<Vector2>();
-        playerAnimator.SetBool("isIdle", false);
-        playerAnimator.SetBool("isWalking", true);
-        playerAnimator.SetBool("isJumping", false);
-        playerAnimator.SetBool("isInteracting", false);
-        playerAnimator.SetBool("isPushing", false);
-        playerAnimator.SetBool("isRunning", false);
-        playerAnimator.SetBool("isDeath", false);
-        Debug.Log("Move triggered");
+        if (!isDead)
+        {
+            moveInput = context.ReadValue<Vector2>();
+            playerAnimator.SetBool("isIdle", false);
+            playerAnimator.SetBool("isWalking", true);
+            playerAnimator.SetBool("isJumping", false);
+            playerAnimator.SetBool("isInteracting", false);
+            playerAnimator.SetBool("isPushing", false);
+            playerAnimator.SetBool("isRunning", false);
+            playerAnimator.SetBool("isDeath", false);
+            Debug.Log("Move triggered");
+        }
     }
 
     //Whenever the player calls this input, the player will jump up
     public void Jump(InputAction.CallbackContext context)
     {
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
-        if (!isJumping)
+        if (!isJumping && !isDead)
         {
             rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpSpeed);
 
@@ -88,15 +93,18 @@ public class PlayerMovement : MonoBehaviour
 
     public void Interact(InputAction.CallbackContext context)
     {
-        playerAnimator.SetBool("isIdle", false);
-        playerAnimator.SetBool("isWalking", false);
-        playerAnimator.SetBool("isJumping", false);
-        playerAnimator.SetBool("isInteracting", true);
-        playerAnimator.SetBool("isPushing", false);
-        playerAnimator.SetBool("isRunning", false);
-        playerAnimator.SetBool("isDeath", false);
+        if (!isDead)
+        {
+            playerAnimator.SetBool("isIdle", false);
+            playerAnimator.SetBool("isWalking", false);
+            playerAnimator.SetBool("isJumping", false);
+            playerAnimator.SetBool("isInteracting", true);
+            playerAnimator.SetBool("isPushing", false);
+            playerAnimator.SetBool("isRunning", false);
+            playerAnimator.SetBool("isDeath", false);
 
-        Debug.Log("Interact triggered");
+            Debug.Log("Interact triggered");
+        }
     }
     #endregion
 
@@ -107,6 +115,21 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Floor")
         {
             isJumping = false;
+        }
+
+        //If the enemy touches the player, they will die and the game will restart
+        if (collision.gameObject.tag == "Enemy")
+        {
+            isDead = true;
+
+            playerAnimator.SetBool("isIdle", false);
+            playerAnimator.SetBool("isWalking", false);
+            playerAnimator.SetBool("isJumping", false);
+            playerAnimator.SetBool("isInteracting", false);
+            playerAnimator.SetBool("isPushing", false);
+            playerAnimator.SetBool("isRunning", false);
+            playerAnimator.SetBool("isDeath", true);
+
         }
     }
 }
