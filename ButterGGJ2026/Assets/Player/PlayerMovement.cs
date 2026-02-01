@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     public CapsuleCollider2D cc2d;
 
+    private AudioSource dollBreak;
+
     #region [Animation]
 
     private Animator playerAnimator;
@@ -152,14 +154,33 @@ public class PlayerMovement : MonoBehaviour
         {
             isDead = true;
 
-            playerAnimator.SetBool("isIdle", false);
-            playerAnimator.SetBool("isWalking", false);
-            playerAnimator.SetBool("isJumping", false);
-            playerAnimator.SetBool("isInteracting", false);
-            playerAnimator.SetBool("isPushing", false);
-            playerAnimator.SetBool("isRunning", false);
-            playerAnimator.SetBool("isDeath", true);
-
+            StartCoroutine(WaitForAnimation());
         }
+    }
+
+    private IEnumerator WaitForAnimation()
+    {
+        playerAnimator.SetBool("isIdle", false);
+        playerAnimator.SetBool("isWalking", false);
+        playerAnimator.SetBool("isJumping", false);
+        playerAnimator.SetBool("isInteracting", false);
+        playerAnimator.SetBool("isPushing", false);
+        playerAnimator.SetBool("isRunning", false);
+        playerAnimator.SetBool("isDeath", true);
+
+        //Play doll breaking sound effect
+        dollBreak.Play();
+
+        // Wait for one frame to ensure that the animation has started
+        yield return null;
+
+        // Get the length of the current animation, which will be "isDeath"
+        float animationLength = playerAnimator.GetCurrentAnimatorStateInfo(0).length;
+
+        // Wait for the duration of the enemy death animation
+        yield return new WaitForSeconds(animationLength);
+
+        //Animation is done destory self
+        StopCoroutine(WaitForAnimation());
     }
 }
