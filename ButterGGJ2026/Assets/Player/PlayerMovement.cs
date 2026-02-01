@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,8 +9,6 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb2d;
 
     public CapsuleCollider2D cc2d;
-
-    private AudioSource dollBreak;
 
     #region [Animation]
 
@@ -37,6 +36,16 @@ public class PlayerMovement : MonoBehaviour
 
     #endregion
 
+    #region [Audio]
+
+    public AudioSource dollBreak;
+
+    public List<AudioSource> walkSFX;
+
+    #endregion
+
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -53,6 +62,8 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.SetBool("isPushing", false);
         playerAnimator.SetBool("isRunning", false);
         playerAnimator.SetBool("isDeath", false);
+
+        //walkSFX = GetComponent<List<AudioSource>>();
     }
 
     // Update is called once per frame
@@ -77,6 +88,9 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetBool("isPushing", false);
             playerAnimator.SetBool("isRunning", false);
             playerAnimator.SetBool("isDeath", false);
+
+            int rand = Random.Range(0, 3);
+            walkSFX[rand].Play();
         }
     }
 

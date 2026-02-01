@@ -59,16 +59,6 @@ public class Settings : MonoBehaviour
         Application.Quit();
     }
 
-    public void leveltranstion1()
-    {
-        SceneManager.LoadScene("Level2", LoadSceneMode.Additive);
-    }
-
-    public void leveltranstion2()
-    {
-        SceneManager.LoadScene("Level3", LoadSceneMode.Additive);
-    }
-
     #endregion
 
     #region [Graphics Control]
