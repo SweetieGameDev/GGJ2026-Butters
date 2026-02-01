@@ -92,7 +92,7 @@ public class PlayerMovement : MonoBehaviour
         if (maskCollected)
         {
             RectTransform transform = memoryImage.GetComponent<RectTransform>();
-            transform.position = new Vector2(transform.position.x, transform.position.y + 0.5f);
+            transform.position = new Vector2(transform.position.x, transform.position.y + 1f);
         }
     }
 
