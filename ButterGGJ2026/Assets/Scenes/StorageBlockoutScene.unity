@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.925348
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.4867687
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1961,6 +1961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321383565}
   - component: {fileID: 1321383564}
+  - component: {fileID: 1321383566}
   m_Layer: 0
   m_Name: End Level Trigger
   m_TagString: Untagged
@@ -2029,6 +2030,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321383566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321383563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908b0278a4b35bf4881ba46e58944e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadNextSceneScript
+  sceneName: WorkshopBlockoutScene
 --- !u!1 &1356944934
 GameObject:
   m_ObjectHideFlags: 0

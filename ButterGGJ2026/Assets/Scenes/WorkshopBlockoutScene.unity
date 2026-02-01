@@ -5941,7 +5941,7 @@ Transform:
   m_GameObject: {fileID: 1143765404}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.7362766, y: 0.0050001144, z: -10}
+  m_LocalPosition: {x: 0.73999596, y: 0.0050001144, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12397,6 +12397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2004458616}
   - component: {fileID: 2004458615}
+  - component: {fileID: 2004458617}
   m_Layer: 0
   m_Name: End Level Trigger
   m_TagString: Untagged
@@ -12465,6 +12466,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2004458617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004458614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908b0278a4b35bf4881ba46e58944e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadNextSceneScript
+  sceneName: ShopBlockout
 --- !u!1 &2014993717
 GameObject:
   m_ObjectHideFlags: 0
