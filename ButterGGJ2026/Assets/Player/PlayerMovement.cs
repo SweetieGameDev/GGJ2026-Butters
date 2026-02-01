@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject memoryImage;
     public GameObject referancePos;
+    private bool maskCollected = false;
+    private float waitTime = 100;
 
     #region [Animation]
 
@@ -76,6 +79,21 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb2d.linearVelocity = new Vector2(moveInput.x * moveSpeed, rb2d.linearVelocity.y);
+
+        if (rb2d.linearVelocity.x < 0)
+        {
+            gameObject.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        else
+        {
+            gameObject.transform.localScale = new Vector3(1, 1, 1);
+        }
+
+        if (maskCollected)
+        {
+            RectTransform transform = memoryImage.GetComponent<RectTransform>();
+            transform.position = new Vector2(transform.position.x, transform.position.y + 0.5f);
+        }
     }
 
 
@@ -138,6 +156,8 @@ public class PlayerMovement : MonoBehaviour
 
             RectTransform transform = memoryImage.GetComponent<RectTransform>();
             transform.position = referancePos.GetComponent<RectTransform>().position;
+
+            maskCollected = true;
         }
     }
 
