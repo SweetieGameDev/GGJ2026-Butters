@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     public CapsuleCollider2D cc2d;
 
+    private bool maskNear = false;
+    private GameObject maskObj;
+
     #region [Animation]
 
     private Animator playerAnimator;
@@ -117,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Interact(InputAction.CallbackContext context)
     {
-        if (!isDead)
+        if (!isDead && maskNear)
         {
             playerAnimator.SetBool("isIdle", false);
             playerAnimator.SetBool("isWalking", false);
@@ -127,7 +130,8 @@ public class PlayerMovement : MonoBehaviour
             playerAnimator.SetBool("isRunning", false);
             playerAnimator.SetBool("isDeath", false);
 
-            Debug.Log("Interact triggered");
+            // Run mask interact
+            Destroy(maskObj);
         }
     }
 
@@ -169,6 +173,15 @@ public class PlayerMovement : MonoBehaviour
             isDead = true;
 
             StartCoroutine(WaitForAnimation());
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer.ToString() == "7")
+        {
+            maskNear = true;
+            maskObj = collision.gameObject;
         }
     }
 

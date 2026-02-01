@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: -1783418883050071442}
   - component: {fileID: 1850638290711140394}
   - component: {fileID: 3164670345635920120}
+  - component: {fileID: 8845944285096968652}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -569,6 +570,42 @@ MonoBehaviour:
   - {fileID: 3215891180655388904}
   - {fileID: 5050109205570657111}
   - {fileID: 4701126030471415006}
+--- !u!58 &8845944285096968652
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3148599997634317553}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 2
 --- !u!1 &4834392667403885886
 GameObject:
   m_ObjectHideFlags: 0
