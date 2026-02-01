@@ -478,7 +478,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -3176,7 +3176,7 @@ Transform:
   m_GameObject: {fileID: 587680955}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -36.719414, y: 0.005004883, z: -10}
+  m_LocalPosition: {x: -36.719414, y: 0.005004525, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3447,7 +3447,7 @@ Transform:
   m_GameObject: {fileID: 631462630}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37, y: 11.86, z: -10}
+  m_LocalPosition: {x: -37, y: 15, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5069,7 +5069,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.86
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8622370681851695197, guid: ffed48f4107d81848a403780d9fc73b5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5855,6 +5855,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435534246}
   - component: {fileID: 1435534245}
+  - component: {fileID: 1435534247}
   m_Layer: 0
   m_Name: End Level Trigger
   m_TagString: Untagged
@@ -5923,6 +5924,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1435534247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435534244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908b0278a4b35bf4881ba46e58944e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LoadNextSceneScript
+  sceneName: BadEnd
 --- !u!4 &1498685825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1727195535863202812, guid: 846588a88faaa4d4cb9dc83ec6109aa5, type: 3}
