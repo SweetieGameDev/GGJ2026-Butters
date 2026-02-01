@@ -2194,7 +2194,7 @@ GameObject:
   - component: {fileID: 2928017774204004961}
   - component: {fileID: 920428988557435452}
   - component: {fileID: 7794753750032719482}
-  - component: {fileID: 182581283811990298}
+  - component: {fileID: 896320539129830970}
   m_Layer: 0
   m_Name: Pushable Book
   m_TagString: Floor
@@ -2304,8 +2304,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &182581283811990298
-PolygonCollider2D:
+--- !u!61 &896320539129830970
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2348,13 +2348,8 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
-  m_UseDelaunayMesh: 1
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &9000891359362032304
 GameObject:
   m_ObjectHideFlags: 0
