@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     private bool maskNear = false;
     private GameObject maskObj;
 
+    public GameObject memoryImage;
+    public GameObject referancePos;
+
     #region [Animation]
 
     private Animator playerAnimator;
@@ -132,6 +135,9 @@ public class PlayerMovement : MonoBehaviour
 
             // Run mask interact
             Destroy(maskObj);
+
+            RectTransform transform = memoryImage.GetComponent<RectTransform>();
+            transform.position = referancePos.GetComponent<RectTransform>().position;
         }
     }
 
