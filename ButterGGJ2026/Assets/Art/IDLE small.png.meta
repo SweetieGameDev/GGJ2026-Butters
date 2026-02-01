@@ -1,0 +1,3037 @@
+fileFormatVersion: 2
+guid: 65c75b661c7939b438fc9bb74a7f1af9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1775235382628472234
+    second: IDLE small_0
+  - first:
+      213: 4407424591682668605
+    second: IDLE small_1
+  - first:
+      213: -1745818862654178578
+    second: IDLE small_2
+  - first:
+      213: 1185309873105965364
+    second: IDLE small_3
+  - first:
+      213: -3814363175110128542
+    second: IDLE small_4
+  - first:
+      213: 6783295850709011155
+    second: IDLE small_5
+  - first:
+      213: -1706454342240565758
+    second: IDLE small_6
+  - first:
+      213: -6391157669072462011
+    second: IDLE small_7
+  - first:
+      213: 4928082357243810524
+    second: IDLE small_8
+  - first:
+      213: -2388579484096242466
+    second: IDLE small_9
+  - first:
+      213: 6117714726319815183
+    second: IDLE small_10
+  - first:
+      213: -2090901146083994798
+    second: IDLE small_11
+  - first:
+      213: -1444876212779177241
+    second: IDLE small_12
+  - first:
+      213: -385601009666097357
+    second: IDLE small_13
+  - first:
+      213: -2368065535094536421
+    second: IDLE small_14
+  - first:
+      213: -4666579263245769703
+    second: IDLE small_15
+  - first:
+      213: 155052257524589029
+    second: IDLE small_16
+  - first:
+      213: 2190125422603662011
+    second: IDLE small_17
+  - first:
+      213: -8152380937346670782
+    second: IDLE small_18
+  - first:
+      213: 4202463853281398849
+    second: IDLE small_19
+  - first:
+      213: 275430047784340050
+    second: IDLE small_20
+  - first:
+      213: -6896014979213278993
+    second: IDLE small_21
+  - first:
+      213: 627268716742874986
+    second: IDLE small_22
+  - first:
+      213: -8213933506909726953
+    second: IDLE small_23
+  - first:
+      213: 2919855244437109036
+    second: IDLE small_24
+  - first:
+      213: -3022593990149701452
+    second: IDLE small_25
+  - first:
+      213: -704707652617863030
+    second: IDLE small_26
+  - first:
+      213: -2850810328254244630
+    second: IDLE small_27
+  - first:
+      213: -1706772846293842789
+    second: IDLE small_28
+  - first:
+      213: 5778438858094773069
+    second: IDLE small_29
+  - first:
+      213: 4701027184285829221
+    second: IDLE small_30
+  - first:
+      213: -8507320824738329577
+    second: IDLE small_31
+  - first:
+      213: 4051731417814793926
+    second: IDLE small_32
+  - first:
+      213: -4599458164413848791
+    second: IDLE small_33
+  - first:
+      213: 3772635696544543881
+    second: IDLE small_34
+  - first:
+      213: -7442951041752015812
+    second: IDLE small_35
+  - first:
+      213: -2392533120256358746
+    second: IDLE small_36
+  - first:
+      213: 2518253109156514604
+    second: IDLE small_37
+  - first:
+      213: 5665874170254924632
+    second: IDLE small_38
+  - first:
+      213: -4956407668347662988
+    second: IDLE small_39
+  - first:
+      213: 678658979579053124
+    second: IDLE small_40
+  - first:
+      213: 5572913209620059025
+    second: IDLE small_41
+  - first:
+      213: 5243448058890584140
+    second: IDLE small_42
+  - first:
+      213: 415946550078528720
+    second: IDLE small_43
+  - first:
+      213: 384150964728252182
+    second: IDLE small_44
+  - first:
+      213: -2543146258046569399
+    second: IDLE small_45
+  - first:
+      213: 4118017178871702896
+    second: IDLE small_46
+  - first:
+      213: 3450475165812832203
+    second: IDLE small_47
+  - first:
+      213: -2856140011235843946
+    second: IDLE small_48
+  - first:
+      213: -5082003898548747635
+    second: IDLE small_49
+  - first:
+      213: -5741301284618338464
+    second: IDLE small_50
+  - first:
+      213: 7408163472037747926
+    second: IDLE small_51
+  - first:
+      213: -5468815922136396664
+    second: IDLE small_52
+  - first:
+      213: 3928828948788985559
+    second: IDLE small_53
+  - first:
+      213: -3329927176886235695
+    second: IDLE small_54
+  - first:
+      213: 4264039399152641677
+    second: IDLE small_55
+  - first:
+      213: -7307522876129468676
+    second: IDLE small_56
+  - first:
+      213: -4420269670757474647
+    second: IDLE small_57
+  - first:
+      213: 5354820847064925086
+    second: IDLE small_58
+  - first:
+      213: -5199348526974286385
+    second: IDLE small_59
+  - first:
+      213: 902388498016971092
+    second: IDLE small_60
+  - first:
+      213: 3089562139660792456
+    second: IDLE small_61
+  - first:
+      213: -4988101617164992701
+    second: IDLE small_62
+  - first:
+      213: 6802611126715081182
+    second: IDLE small_63
+  - first:
+      213: 1607296651099781084
+    second: IDLE small_64
+  - first:
+      213: 6068395728323797675
+    second: IDLE small_65
+  - first:
+      213: 5661680132021906043
+    second: IDLE small_66
+  - first:
+      213: 2874272857239001710
+    second: IDLE small_67
+  - first:
+      213: -5244403603606520941
+    second: IDLE small_68
+  - first:
+      213: 7463573659153140803
+    second: IDLE small_69
+  - first:
+      213: -7629406770009131284
+    second: IDLE small_70
+  - first:
+      213: -3430514139526148068
+    second: IDLE small_71
+  - first:
+      213: -6179660678307297018
+    second: IDLE small_72
+  - first:
+      213: 6106725880554028046
+    second: IDLE small_73
+  - first:
+      213: 3239947883069449277
+    second: IDLE small_74
+  - first:
+      213: -2624540604341276727
+    second: IDLE small_75
+  - first:
+      213: 874860810879588679
+    second: IDLE small_76
+  - first:
+      213: -4417743045208695978
+    second: IDLE small_77
+  - first:
+      213: 6017554562516795082
+    second: IDLE small_78
+  - first:
+      213: 8735481638951346420
+    second: IDLE small_79
+  - first:
+      213: -1228654028453268256
+    second: IDLE small_80
+  - first:
+      213: 6776566027031716745
+    second: IDLE small_81
+  - first:
+      213: -2495408988105435187
+    second: IDLE small_82
+  - first:
+      213: -4679543900588845943
+    second: IDLE small_83
+  - first:
+      213: -6290699819389800383
+    second: IDLE small_84
+  - first:
+      213: 8784037380143956151
+    second: IDLE small_85
+  - first:
+      213: 8003372106975867176
+    second: IDLE small_86
+  - first:
+      213: 1315885415418576783
+    second: IDLE small_87
+  - first:
+      213: 997944054889593555
+    second: IDLE small_88
+  - first:
+      213: -1383418251330008672
+    second: IDLE small_89
+  - first:
+      213: -1920941353461600933
+    second: IDLE small_90
+  - first:
+      213: 8274277375256946893
+    second: IDLE small_91
+  - first:
+      213: -1088619109836444691
+    second: IDLE small_92
+  - first:
+      213: 1361756993623248401
+    second: IDLE small_93
+  - first:
+      213: 9202764579018138556
+    second: IDLE small_94
+  - first:
+      213: -7126341743435992149
+    second: IDLE small_95
+  - first:
+      213: 4997802011606935204
+    second: IDLE small_96
+  - first:
+      213: -3037526805653753668
+    second: IDLE small_97
+  - first:
+      213: 8683883078718081506
+    second: IDLE small_98
+  - first:
+      213: 9059820056256803042
+    second: IDLE small_99
+  - first:
+      213: -3533398513479082121
+    second: IDLE small_100
+  - first:
+      213: -9056547488288698490
+    second: IDLE small_101
+  - first:
+      213: -3594589045122733887
+    second: IDLE small_102
+  - first:
+      213: 7370046829123828231
+    second: IDLE small_103
+  - first:
+      213: -9051676522345502620
+    second: IDLE small_104
+  - first:
+      213: -5118901980018549117
+    second: IDLE small_105
+  - first:
+      213: -7656439558890273935
+    second: IDLE small_106
+  - first:
+      213: 2303219376059197735
+    second: IDLE small_107
+  - first:
+      213: -7452988018609800910
+    second: IDLE small_108
+  - first:
+      213: 6033947201941889392
+    second: IDLE small_109
+  - first:
+      213: -7712538867370774714
+    second: IDLE small_110
+  - first:
+      213: 8300398867824331377
+    second: IDLE small_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IDLE small_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa55646cc27e2a810800000000000000
+      internalID: 1775235382628472234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38019980515a2d30800000000000000
+      internalID: 4407424591682668605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea32518efa95c7e0800000000000000
+      internalID: -1745818862654178578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4319e3fac01137010800000000000000
+      internalID: 1185309873105965364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cca3fc6e8a01bc0800000000000000
+      internalID: -3814363175110128542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da44e303ab132e50800000000000000
+      internalID: 6783295850709011155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206045121d47158e0800000000000000
+      internalID: -1706454342240565758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f1c6736fb0e47a0800000000000000
+      internalID: -6391157669072462011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_8
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd213673bc0146440800000000000000
+      internalID: 4928082357243810524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc58ac4d9f0aded0800000000000000
+      internalID: -2388579484096242466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0af77b612d76e450800000000000000
+      internalID: 6117714726319815183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_11
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253d4375c70abf2e0800000000000000
+      internalID: -2090901146083994798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_12
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaa2e06db4c2fbe0800000000000000
+      internalID: -1444876212779177241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ff1d9bce116aaf0800000000000000
+      internalID: -385601009666097357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1748df31f0f22fd0800000000000000
+      internalID: -2368065535094536421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914280a72eafc3fb0800000000000000
+      internalID: -4666579263245769703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1206be43bd62200800000000000000
+      internalID: 155052257524589029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2f7d3d773e46e10800000000000000
+      internalID: 2190125422603662011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f19cb0bbcecde80800000000000000
+      internalID: -8152380937346670782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_19
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140d144eb96225a30800000000000000
+      internalID: 4202463853281398849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a87ae4b2682d300800000000000000
+      internalID: 275430047784340050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0483eb9ee6c40a0800000000000000
+      internalID: -6896014979213278993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679c20139184b800800000000000000
+      internalID: 627268716742874986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_23
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71797f7aefe320e80800000000000000
+      internalID: -8213933506909726953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c293c30ffd8658820800000000000000
+      internalID: 2919855244437109036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_25
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b085e4c7c69d06d0800000000000000
+      internalID: -3022593990149701452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_26
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a808637af106836f0800000000000000
+      internalID: -704707652617863030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae814665c13ef68d0800000000000000
+      internalID: -2850810328254244630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b948f50a3235058e0800000000000000
+      internalID: -1706772846293842789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d438d05a683213050800000000000000
+      internalID: 5778438858094773069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_30
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568cfc621576d3140800000000000000
+      internalID: 4701027184285829221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c403b98ccefe980800000000000000
+      internalID: -8507320824738329577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cef32ce144aa3830800000000000000
+      internalID: 4051731417814793926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_33
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923a7de1b217b20c0800000000000000
+      internalID: -4599458164413848791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984fe7f7d281b5430800000000000000
+      internalID: 3772635696544543881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c5fb3467355b890800000000000000
+      internalID: -7442951041752015812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a643c5adc30cced0800000000000000
+      internalID: -2392533120256358746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_37
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b0cc94cd1a2f220800000000000000
+      internalID: 2518253109156514604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_38
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b1b1ce98a31ae40800000000000000
+      internalID: 5665874170254924632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_39
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d8d1e5c7d473bb0800000000000000
+      internalID: -4956407668347662988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_40
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44440790fb41b6900800000000000000
+      internalID: 678658979579053124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1935c7f9907f65d40800000000000000
+      internalID: 5572913209620059025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4082648a3874c840800000000000000
+      internalID: 5243448058890584140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dcdafafe2db5c500800000000000000
+      internalID: 415946550078528720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61740c06447c45500800000000000000
+      internalID: 384150964728252182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_45
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9443545d3fde4bcd0800000000000000
+      internalID: -2543146258046569399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_46
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075aa955ec2262930800000000000000
+      internalID: 4118017178871702896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_47
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7b494c1ec82ef20800000000000000
+      internalID: 3450475165812832203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_48
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690e181dac3fc58d0800000000000000
+      internalID: -2856140011235843946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d820adf31681979b0800000000000000
+      internalID: -5082003898548747635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_50
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f74dd76ecc250b0800000000000000
+      internalID: -5741301284618338464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_51
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc95dc7d651fc660800000000000000
+      internalID: 7408163472037747926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_52
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c4f03d4ecda14b0800000000000000
+      internalID: -5468815922136396664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_53
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7deb6d3fc11068630800000000000000
+      internalID: 3928828948788985559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_54
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddc6c510e8b9c1d0800000000000000
+      internalID: -3329927176886235695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_55
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3000
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8663cedd39ec2b30800000000000000
+      internalID: 4264039399152641677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe134c39a6769a90800000000000000
+      internalID: -7307522876129468676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_57
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae511f672c08a2c0800000000000000
+      internalID: -4420269670757474647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_58
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9349297035205a40800000000000000
+      internalID: 5354820847064925086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_59
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc54f32ef0438d7b0800000000000000
+      internalID: -5199348526974286385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_60
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45923b1de8de58c00800000000000000
+      internalID: 902388498016971092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_61
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8823af5956450ea20800000000000000
+      internalID: 3089562139660792456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_62
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2625
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f345dd104b6cab0800000000000000
+      internalID: -4988101617164992701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1e8f827cab76e50800000000000000
+      internalID: 6802611126715081182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_64
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd73a71d9c34e4610800000000000000
+      internalID: 1607296651099781084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_65
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2ec3f53c5473450800000000000000
+      internalID: 6068395728323797675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_66
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a6d0d4514529e40800000000000000
+      internalID: 5661680132021906043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a17436fe773e720800000000000000
+      internalID: 2874272857239001710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_68
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b314465b22837b0800000000000000
+      internalID: -5244403603606520941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_69
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2250
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c09c403b0f39760800000000000000
+      internalID: 7463573659153140803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce635aa07f6ee1690800000000000000
+      internalID: -7629406770009131284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10d694d09d5460d0800000000000000
+      internalID: -3430514139526148068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_72
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6094b05ba5f6d3aa0800000000000000
+      internalID: -6179660678307297018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_73
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c7b1365d27fb450800000000000000
+      internalID: 6106725880554028046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_74
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3422250f6b96fc20800000000000000
+      internalID: 3239947883069449277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_75
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf26abc932c39bd0800000000000000
+      internalID: -2624540604341276727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_76
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1875
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7495364b541242c00800000000000000
+      internalID: 874860810879588679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b12694b1601b2c0800000000000000
+      internalID: -4417743045208695978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_78
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ace38530ef5a28350800000000000000
+      internalID: 6017554562516795082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_79
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f064af944aaa3970800000000000000
+      internalID: 8735481638951346420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_80
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4b03abba1f2fee0800000000000000
+      internalID: -1228654028453268256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_81
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983a436d5e23b0e50800000000000000
+      internalID: 6776566027031716745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_82
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc798ae1fb68e5dd0800000000000000
+      internalID: -2495408988105435187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_83
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1500
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9845e8e9d9bee0fb0800000000000000
+      internalID: -4679543900588845943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14038a408d1f2b8a0800000000000000
+      internalID: -6290699819389800383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_85
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0cb39157b27e970800000000000000
+      internalID: 8784037380143956151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_86
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821f0911780b11f60800000000000000
+      internalID: 8003372106975867176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_87
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f342f30d6f24210800000000000000
+      internalID: 1315885415418576783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_88
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da3861a4d869dd00800000000000000
+      internalID: 997944054889593555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_89
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9cea91e6c1dcce0800000000000000
+      internalID: -1383418251330008672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_90
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1125
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d209044027755e0800000000000000
+      internalID: -1920941353461600933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8ed3d0f6324d270800000000000000
+      internalID: 8274277375256946893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_92
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb2f76ffa274e0f0800000000000000
+      internalID: -1088619109836444691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_93
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e415355cee5e210800000000000000
+      internalID: 1361756993623248401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_94
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb36ce350a9c6bf70800000000000000
+      internalID: 9202764579018138556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_95
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3b57af0f52a1d90800000000000000
+      internalID: -7126341743435992149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_96
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a660973372cb5540800000000000000
+      internalID: 4997802011606935204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_97
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 750
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0f749b67988d5d0800000000000000
+      internalID: -3037526805653753668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e94402a6a9538870800000000000000
+      internalID: 8683883078718081506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_99
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e075261752fabd70800000000000000
+      internalID: 9059820056256803042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_100
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f9f22d5c8d6fec0800000000000000
+      internalID: -3533398513479082121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_101
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f88150b0ea05280800000000000000
+      internalID: -9056547488288698490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_102
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8e2f3fe447d1ec0800000000000000
+      internalID: -3594589045122733887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_103
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a7bebfa8aa74660800000000000000
+      internalID: 7370046829123828231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_104
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 375
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686ad7292cf16280800000000000000
+      internalID: -9051676522345502620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e53f035c106f8b0800000000000000
+      internalID: -5118901980018549117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_106
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173c81869ccdeb590800000000000000
+      internalID: -7656439558890273935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_107
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7292ecdc1dda6ff10800000000000000
+      internalID: 2303219376059197735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_108
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 239358b72eaa19890800000000000000
+      internalID: -7452988018609800910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_109
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071653dc203ecb350800000000000000
+      internalID: 6033947201941889392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDLE small_110
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fa8fd43ce87f490800000000000000
+      internalID: -7712538867370774714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1c4de017656408644ac493f233a4783a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":500.0,"y":375.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IDLE small_0: 1775235382628472234
+      IDLE small_1: 4407424591682668605
+      IDLE small_10: 6117714726319815183
+      IDLE small_100: -3533398513479082121
+      IDLE small_101: -9056547488288698490
+      IDLE small_102: -3594589045122733887
+      IDLE small_103: 7370046829123828231
+      IDLE small_104: -9051676522345502620
+      IDLE small_105: -5118901980018549117
+      IDLE small_106: -7656439558890273935
+      IDLE small_107: 2303219376059197735
+      IDLE small_108: -7452988018609800910
+      IDLE small_109: 6033947201941889392
+      IDLE small_11: -2090901146083994798
+      IDLE small_110: -7712538867370774714
+      IDLE small_111: 8300398867824331377
+      IDLE small_12: -1444876212779177241
+      IDLE small_13: -385601009666097357
+      IDLE small_14: -2368065535094536421
+      IDLE small_15: -4666579263245769703
+      IDLE small_16: 155052257524589029
+      IDLE small_17: 2190125422603662011
+      IDLE small_18: -8152380937346670782
+      IDLE small_19: 4202463853281398849
+      IDLE small_2: -1745818862654178578
+      IDLE small_20: 275430047784340050
+      IDLE small_21: -6896014979213278993
+      IDLE small_22: 627268716742874986
+      IDLE small_23: -8213933506909726953
+      IDLE small_24: 2919855244437109036
+      IDLE small_25: -3022593990149701452
+      IDLE small_26: -704707652617863030
+      IDLE small_27: -2850810328254244630
+      IDLE small_28: -1706772846293842789
+      IDLE small_29: 5778438858094773069
+      IDLE small_3: 1185309873105965364
+      IDLE small_30: 4701027184285829221
+      IDLE small_31: -8507320824738329577
+      IDLE small_32: 4051731417814793926
+      IDLE small_33: -4599458164413848791
+      IDLE small_34: 3772635696544543881
+      IDLE small_35: -7442951041752015812
+      IDLE small_36: -2392533120256358746
+      IDLE small_37: 2518253109156514604
+      IDLE small_38: 5665874170254924632
+      IDLE small_39: -4956407668347662988
+      IDLE small_4: -3814363175110128542
+      IDLE small_40: 678658979579053124
+      IDLE small_41: 5572913209620059025
+      IDLE small_42: 5243448058890584140
+      IDLE small_43: 415946550078528720
+      IDLE small_44: 384150964728252182
+      IDLE small_45: -2543146258046569399
+      IDLE small_46: 4118017178871702896
+      IDLE small_47: 3450475165812832203
+      IDLE small_48: -2856140011235843946
+      IDLE small_49: -5082003898548747635
+      IDLE small_5: 6783295850709011155
+      IDLE small_50: -5741301284618338464
+      IDLE small_51: 7408163472037747926
+      IDLE small_52: -5468815922136396664
+      IDLE small_53: 3928828948788985559
+      IDLE small_54: -3329927176886235695
+      IDLE small_55: 4264039399152641677
+      IDLE small_56: -7307522876129468676
+      IDLE small_57: -4420269670757474647
+      IDLE small_58: 5354820847064925086
+      IDLE small_59: -5199348526974286385
+      IDLE small_6: -1706454342240565758
+      IDLE small_60: 902388498016971092
+      IDLE small_61: 3089562139660792456
+      IDLE small_62: -4988101617164992701
+      IDLE small_63: 6802611126715081182
+      IDLE small_64: 1607296651099781084
+      IDLE small_65: 6068395728323797675
+      IDLE small_66: 5661680132021906043
+      IDLE small_67: 2874272857239001710
+      IDLE small_68: -5244403603606520941
+      IDLE small_69: 7463573659153140803
+      IDLE small_7: -6391157669072462011
+      IDLE small_70: -7629406770009131284
+      IDLE small_71: -3430514139526148068
+      IDLE small_72: -6179660678307297018
+      IDLE small_73: 6106725880554028046
+      IDLE small_74: 3239947883069449277
+      IDLE small_75: -2624540604341276727
+      IDLE small_76: 874860810879588679
+      IDLE small_77: -4417743045208695978
+      IDLE small_78: 6017554562516795082
+      IDLE small_79: 8735481638951346420
+      IDLE small_8: 4928082357243810524
+      IDLE small_80: -1228654028453268256
+      IDLE small_81: 6776566027031716745
+      IDLE small_82: -2495408988105435187
+      IDLE small_83: -4679543900588845943
+      IDLE small_84: -6290699819389800383
+      IDLE small_85: 8784037380143956151
+      IDLE small_86: 8003372106975867176
+      IDLE small_87: 1315885415418576783
+      IDLE small_88: 997944054889593555
+      IDLE small_89: -1383418251330008672
+      IDLE small_9: -2388579484096242466
+      IDLE small_90: -1920941353461600933
+      IDLE small_91: 8274277375256946893
+      IDLE small_92: -1088619109836444691
+      IDLE small_93: 1361756993623248401
+      IDLE small_94: 9202764579018138556
+      IDLE small_95: -7126341743435992149
+      IDLE small_96: 4997802011606935204
+      IDLE small_97: -3037526805653753668
+      IDLE small_98: 8683883078718081506
+      IDLE small_99: 9059820056256803042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
