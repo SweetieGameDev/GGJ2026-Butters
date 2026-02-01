@@ -51,7 +51,7 @@ public class Settings : MonoBehaviour
 
     public void playbutton()
     {
-        SceneManager.LoadScene("Level1", LoadSceneMode.Additive);
+        SceneManager.LoadScene("StorageBlockoutScene");
     }
 
     public void OnApplicationQuit()
